@@ -22,10 +22,10 @@ st.set_page_config("Multi-Model Forest Monitoring", layout="centered")
 enable_unsafe_deserialization()
 
 # ==== Paths ====
-GAN_GENERATOR_PATH = r"C:\Gen AI project\GAN training\models_2\generator_rice1_latest.keras"
-WILDLIFE_MODEL_PATH = r"C:\Gen AI project\wildlife classification\final_wildlife_model_1.keras"
-FOREST_MODEL_PATH = r"C:\Gen AI project\forest change classification\foresst_conservation.keras"
-FEDERATED_MODEL_PATH = r"C:\Gen AI project\wildlife classification\models\federated_model\wildlife_model_round_25_1.pth"
+GAN_GENERATOR_PATH = r"generator_rice1_latest.keras"
+WILDLIFE_MODEL_PATH = r"final_wildlife_model_1.keras"
+FOREST_MODEL_PATH = r"foresst_conservation.keras"
+FEDERATED_MODEL_PATH = r"wildlife_model_round_25 _1.pth"
 WILDLIFE_TRAIN_DIR = r"C:\Gen AI project\wildlife classification\grouped_data\train"
 FOREST_TRAIN_DIR = r"C:\Gen AI project\forest change classification\split_data\train"
 
@@ -1235,6 +1235,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
