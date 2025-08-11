@@ -11,6 +11,7 @@ import cv2
 from tensorflow.keras.preprocessing import image as keras_image
 import smtplib, ssl
 from email.message import EmailMessage
+from win10toast import ToastNotifier                            
 from keras.config import enable_unsafe_deserialization
 import matplotlib.pyplot as plt
 import re
@@ -1234,4 +1235,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
