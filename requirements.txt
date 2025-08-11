@@ -17,6 +17,9 @@ streamlit>=1.28.0
 # System Notifications (Windows only)
 win10toast>=0.9; platform_system == "Windows"
 
+# Cross-platform notifications
+plyer>=2.1.0
+
 # File and Path Handling
 pathlib2>=2.3.7
 
