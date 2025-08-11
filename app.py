@@ -26,7 +26,7 @@ enable_unsafe_deserialization()
 GAN_GENERATOR_PATH = r"generator_rice1_latest.keras"
 WILDLIFE_MODEL_PATH = r"final_wildlife_model_1.keras"
 FOREST_MODEL_PATH = r"foresst_conservation.keras"
-FEDERATED_MODEL_PATH = r"wildlife_model_round_25 _1.pth"
+FEDERATED_MODEL_PATH = r"wildlife_model_round_25_1.pth"
 WILDLIFE_TRAIN_DIR = r"C:\Gen AI project\wildlife classification\grouped_data\train"
 FOREST_TRAIN_DIR = r"C:\Gen AI project\forest change classification\split_data\train"
 
@@ -1783,6 +1783,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
