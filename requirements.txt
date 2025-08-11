@@ -1,5 +1,5 @@
 # Core ML and Deep Learning
-tensorflow==2.20.0rc0  # Pre-release version, required for Python 3.13 support
+tensorflow>=2.18.0
 torch>=2.1.0
 torchvision>=0.16.0
 
@@ -14,8 +14,8 @@ matplotlib>=3.7.0
 # Web Framework
 streamlit>=1.28.0
 
-# System Notifications (Windows specific)
-win10toast>=0.9
+# System Notifications (Windows only)
+win10toast>=0.9; platform_system == "Windows"
 
 # File and Path Handling
 pathlib2>=2.3.7
@@ -31,6 +31,6 @@ scipy>=1.11.0
 pytest>=7.4.0
 jupyter>=1.0.0
 
-# Additional utilities that might be helpful
+# Additional utilities
 pandas>=2.0.0
 seaborn>=0.12.0
