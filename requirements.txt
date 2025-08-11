@@ -1,5 +1,5 @@
 # Core ML and Deep Learning
-tensorflow>=2.15.0
+tensorflow==2.20.0rc0  # Pre-release version, required for Python 3.13 support
 torch>=2.1.0
 torchvision>=0.16.0
 
